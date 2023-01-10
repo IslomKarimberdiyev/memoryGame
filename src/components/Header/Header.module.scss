@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+
+  .title {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+    color: #0A0C13;
+  }
+
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #0A0C13;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    .title {
+      font-size: 32px;
+    }
+    .time {
+      font-size: 20px;
+    }
+  }
+}
